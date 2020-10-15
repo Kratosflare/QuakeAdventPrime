@@ -1,0 +1,85 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: CitySpawn.map
+Output file: CitySpawn.bsp
+
+---- LoadMapFile ----
+           36 faces
+            6 brushes
+            3 entities
+            2 unique texnames
+            6 texinfo
+
+Opened WAD: C:/QuakeDeve/wads/id1.wad
+Opened WAD: C:/QuakeDeve/wads/id1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+            6 brushes
+           16 planes
+---- CSGFaces ----
+           36 brushfaces
+           34 csgfaces
+           27 mergedfaces
+---- SolidBSP ----
+           32 split nodes
+            8 solid leafs
+           25 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          242 leaffaces
+          242 nodefaces
+---- Portalize ----
+           25 vis leafs
+           25 vis clusters
+           54 vis portals
+---- FillOutside ----
+           24 outleafs
+---- MergeAll ----
+            6 mergefaces
+---- SolidBSP ----
+            6 split nodes
+            6 solid leafs
+            1 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+           76 leaffaces
+           76 nodefaces
+---- Portalize ----
+            1 vis leafs
+            1 vis clusters
+            0 vis portals
+---- Tjunc ----
+           44 world edges
+          208 edge points
+           24 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote CitySpawn.bsp
+           31 planes              620
+           90 vertexes           1080
+            6 nodes               144
+            4 texinfo             160
+           76 faces              1520
+           64 clipnodes           512
+            2 leafs                56
+           76 marksurfaces        152
+          328 surfedges          1312
+          165 edges               660
+            2 textures          10972
+              lightdata             0
+              visdata               0
+              entdata             208
+
+0.042 seconds elapsed
+Peak memory usage: 606376 (0.6M)
